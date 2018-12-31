@@ -15,6 +15,8 @@ import './style/main.scss';
 
 
 
+
+
 function main() {
   ReactDOM.render(
     
@@ -26,12 +28,15 @@ function main() {
       </Image>
       <Header>
       </Header>
-      <SearchBar>
-      </SearchBar>
+      {/* <SearchBar>
+      </SearchBar> */}
+      
+     
       <Redirect>
       </Redirect>
     </Base>
-    , document.querySelector('.app-wrapper'));
+    , document.querySelector('.app-wrapper', 'Search-Box'));
+    
 }
 
 document.addEventListener('DOMContentLoaded', main);
