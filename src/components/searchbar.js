@@ -1,11 +1,19 @@
 import React from 'react';
 
+import { Redirect } from './Redirect'
+
  export function SearchBar() {
     return (
-      <div className= 'Search_Bar'>
-          <div>
-        <input type="text" id="myInput" onKeyUp="myFunction()" placeholder="Search Here" className= 'Search'></input>
+      <div className= "Search_Bar">
+          
+          <div ClassName="button">
+          <button onClick= {Redirect} >
+                  Click Me for Your results       
+          </button>
           </div>
+            
+       
+          
       </div>
     )
   }
